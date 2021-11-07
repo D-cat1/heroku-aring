@@ -15,4 +15,4 @@ fi
 
 echo "rpc-secret=$ARIA2C_SECRET" >> aria2c.conf
 aria2c -q --conf-path=aria2c.conf&
-yarn start
+npm start
